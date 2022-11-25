@@ -1,0 +1,156 @@
+
+
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  margin: 0;
+  padding: 105px 0;
+  color: #000;
+  font-size:100%;
+  letter-spacing: 1px;
+}
+.content{
+  background: rgba(1, 6, 15, 0) url("../images/images\ \(40\).jpeg") no-repeat fixed center center / cover ;
+  text-align: center;
+}
+a, a:focus, a:hover{
+  text-decoration: none !important;
+  color: lavenderblush !important;
+}
+.placeholder-fix:focus::-webkit-input-placeholder  {color:transparent !important; }
+.placeholder-fix:focus::-moz-placeholder   {color:transparent !important;}
+.placeholder-fix:-moz-placeholder   {color:transparent !important;}
+.loginpage {
+  margin: 0 auto;
+}
+.loginpage .form-control{
+  width:100%;
+}
+#demobox {
+	background-color: rgb(255, 255, 191);
+	letter-spacing: 1px;
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 17.53px;
+  padding-bottom: 1px;
+	text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  color: rgb(31, 30, 30);
+   
+}
+
+.logo h2 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 0;
+  text-transform: uppercase;
+  padding-bottom: 60px;
+  padding-top: -10px ;
+}
+.logo p {
+  padding: 0%;
+  color: grey;
+  padding-top: 1px;
+  font-weight: 600;
+  font-size: 30px;
+  padding-bottom: 22px;
+}
+.loginpage input:first-child{
+  background: url(../images/user.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-origin: content-box;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: medium none;
+  height: 60px;
+  margin: 0 0 0.4px;
+  width: 100%;
+  color: #403055;
+  font-weight: 600;
+  border-radius: 5px 5px 0 0;
+}
+.loginpage input:last-child{
+  background: url(../images/lock.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-origin: content-box;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: medium none;
+  height: 60px;
+  margin: 16px 0;
+  width: 100%;
+  color: #403055;
+  font-weight: 600;
+  border-radius: 0 0 5px 5px;
+}
+.form-control::-moz-placeholder {
+  color: #403055 !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.form-control::-webkit-input-placeholder{
+  color: #403055 !important; 
+  font-weight: 600;
+  letter-spacing: 1px;    
+}
+.form-control:focus {
+  border-color: transparent;
+  box-shadow: none!important;
+  outline: 0 none;
+}
+.action-button .btn-block {
+  background-color: rgb(53, 53, 53);
+  border: medium none;
+  color: grey;
+  font-size: 20px;
+  font-weight: 600;
+  height: 60px;
+  margin-top: 15px;
+  border-radius: 5px;
+  width: 100%;
+}
+.page-links {
+  padding: 0;
+  text-align: center;
+  padding: 40px 0;
+}
+.page-links li{
+  display: inline-block;
+  color: purple;
+}
+.page-links a {
+  color: #000;
+  font-size: 20px;
+  font-weight: 60;
+  margin-right: 50px;
+  
+} 
+
+/*.social-button {
+  text-align: center;
+}
+.social-button > a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 20px;
+  padding: 12px 39px;
+  border-radius: 4px;
+}
+.social-button a:first-child{
+  background-color: rgba(56,83,141,0.6);
+}
+.social-button a:last-child{
+  background-color: rgba(214,34,33,0.6);
+  margin-right: 0px;
+}
+.social-button img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+*/
